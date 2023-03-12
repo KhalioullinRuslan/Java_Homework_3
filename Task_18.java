@@ -3,6 +3,8 @@ import java.util.Random;
 
 // Пусть дан произвольный список целых чисел, удалить из него чётные числа.
 
+package Java_Homework_2;
+
 public class Task_18 {
     public static void main(String[] args) {
     Random rnd = new Random();
