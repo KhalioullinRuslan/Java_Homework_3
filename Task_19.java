@@ -3,6 +3,8 @@ import java.util.Arrays;
 
 // Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее ариф. из этого списка.
 
+package Java_Homework_2;
+
 public class Task_19 {
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(1, 2, 4, 2));
