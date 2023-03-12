@@ -2,6 +2,8 @@ import java.util.Arrays;
 
 // (Дополнительное) Реализовать алгоритм сортировки слиянием.
 
+package Java_Homework_2;
+
 public class Task_20 {
     public static void main(String[] args) {
 
@@ -23,12 +25,12 @@ public class Task_20 {
             return buffer1;
         }
 
-        //уже отсортирован
+        
         int middle = startIndex + (endIndex - startIndex) / 2; // cередина массива
         int[] sorted1 = mergeSortInner(buffer1, buffer2, startIndex, middle);
         int[] sorted2 = mergeSortInner(buffer1, buffer2, middle, endIndex);
 
-        //слияние
+        
         int index1 = startIndex;
         int index2 = middle;
         int destIndex = startIndex;
